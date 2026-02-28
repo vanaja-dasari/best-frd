@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Best Friend</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- AUDIO FILE -->
+    <audio id="bg-music" loop>
+        <source src="C:\Users\Vanaja\OneDrive\Desktop\best frd\assets\3-Neetho Unte Chalu-SenSongsMp3.Co.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" class="music-btn">🎵 Play Music</button>
+
+    <!-- SCREEN 1 -->
+    <div id="intro-screen" class="screen active">
+        <div class="content-wrapper">
+            <h1 class="typing-text"></h1>
+            <p class="fade-in-sub" id="sub-text">I made something for you.</p>
+            <button id="open-btn" class="glow-on-hover">Open My Heart 💌</button>
+        </div>
+    </div>
+
+    <!-- SCREEN 2 -->
+    <div id="main-screen" class="screen">
+        <div class="background-effects" id="particles-container"></div>
+
+        <div class="message-container">
+            <div class="message-content">
+
+                <p class="fade-in-line">
+                    You’ve been there for me in every phase — when I’m happy, when I’m low, and even when I don’t understand myself. Not everyone stays consistent like that. You did.
+                </p>
+
+                <p class="fade-in-line">
+                    You don’t blindly agree with me. When I’m right, you support me. When I’m wrong, you don’t make me feel small — you explain things calmly and help me see clearly. That balance is rare.
+                </p>
+
+                <p class="fade-in-line">
+                    You take care of me in a way that feels safe. Not controlling. Not dramatic. Just steady.
+                </p>
+
+                <p class="fade-in-line">
+                    You give without keeping score. Your time, your advice, your support — you never make it feel like a favor.
+                </p>
+
+                <p class="fade-in-line highlight">
+                    You are my safe place, my constant, my best friend. 🫂💙
+                </p>
+
+            </div>
+
+            <button id="hug-btn" class="glow-on-hover">Send Virtual Hug 🤗</button>
+        </div>
+    </div>
+
+    <!-- HUG OVERLAY -->
+    <div id="hug-overlay" class="overlay">
+        <div class="hug-content">
+            <div class="big-hug-emoji">🫂</div>
+            <h2 class="safe-text">You are my safe place, my best friend.</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
